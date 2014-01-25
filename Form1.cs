@@ -36,5 +36,25 @@ namespace Latin_Translator
         {
             MessageBox.Show("The latin word Medium translates to the english word Center");
         }
+
+        private void answerLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sinisterButton_Click(object sender, EventArgs e)
+        {
+            answerLabel.Text = "Left";
+        }
+
+        private void mediumButton_Click(object sender, EventArgs e)
+        {
+            answerLabel.Text = "Center";
+        }
+
+        private void dexterButton_Click(object sender, EventArgs e)
+        {
+            answerLabel.Text = "Right";
+        }
     }
 }
