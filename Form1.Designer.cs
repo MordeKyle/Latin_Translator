@@ -41,6 +41,7 @@
             this.sinister.TabIndex = 0;
             this.sinister.Text = "Sinister";
             this.sinister.UseVisualStyleBackColor = true;
+            this.sinister.Click += new System.EventHandler(this.sinister_Click);
             // 
             // dexter
             // 
@@ -50,6 +51,7 @@
             this.dexter.TabIndex = 1;
             this.dexter.Text = "Dexter";
             this.dexter.UseVisualStyleBackColor = true;
+            this.dexter.Click += new System.EventHandler(this.dexter_Click);
             // 
             // medium
             // 
@@ -59,6 +61,7 @@
             this.medium.TabIndex = 2;
             this.medium.Text = "Medium";
             this.medium.UseVisualStyleBackColor = true;
+            this.medium.Click += new System.EventHandler(this.medium_Click);
             // 
             // Form1
             // 
@@ -70,6 +73,7 @@
             this.Controls.Add(this.sinister);
             this.Name = "Form1";
             this.Text = "Latin Translator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
