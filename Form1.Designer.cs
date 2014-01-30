@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.questionLabel = new System.Windows.Forms.Label();
             this.dexterButton = new System.Windows.Forms.Button();
             this.mediumButton = new System.Windows.Forms.Button();
@@ -51,7 +52,7 @@
             this.dexterButton.Location = new System.Drawing.Point(201, 102);
             this.dexterButton.Name = "dexterButton";
             this.dexterButton.Size = new System.Drawing.Size(75, 23);
-            this.dexterButton.TabIndex = 1;
+            this.dexterButton.TabIndex = 3;
             this.dexterButton.Text = "Dexter";
             this.dexterButton.UseVisualStyleBackColor = true;
             this.dexterButton.Click += new System.EventHandler(this.dexterButton_Click);
@@ -71,7 +72,7 @@
             this.sinisterButton.Location = new System.Drawing.Point(9, 102);
             this.sinisterButton.Name = "sinisterButton";
             this.sinisterButton.Size = new System.Drawing.Size(75, 23);
-            this.sinisterButton.TabIndex = 3;
+            this.sinisterButton.TabIndex = 1;
             this.sinisterButton.Text = "Sinister";
             this.sinisterButton.UseVisualStyleBackColor = true;
             this.sinisterButton.Click += new System.EventHandler(this.sinisterButton_Click);
@@ -107,6 +108,7 @@
             this.Controls.Add(this.mediumButton);
             this.Controls.Add(this.dexterButton);
             this.Controls.Add(this.questionLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Latin Translator";
             this.Load += new System.EventHandler(this.Form1_Load);
